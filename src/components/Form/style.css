@@ -153,10 +153,6 @@ select {
   .textInput {
     width: 80%;
   }
-
-  select {
-    min-height: 3vh;
-  }
 }
 
 @media screen and (max-width: 425px) {
@@ -170,6 +166,6 @@ select {
   }
 
   select {
-    min-height: 3vh;
+    min-width: 35vw;
   }
 }
